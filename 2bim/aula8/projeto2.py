@@ -1,5 +1,4 @@
-#2. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de 
-#   números impares.
+#2
 
 contador = 1
 impar = 0

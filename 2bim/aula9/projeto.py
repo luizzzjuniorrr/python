@@ -1,3 +1,5 @@
+#3
+
 base= int(input("Digite a base: "))
 exp= int(input("Digite o expoente: "))
 contador=1

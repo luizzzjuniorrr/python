@@ -1,6 +1,5 @@
-#1. Faça um programa que receba dois números inteiros e imprima os números inteiros que estão no intervalo 
-# compreendido entre estes números digitados.
- 
+#1
+
 n = int(input("Digite um numero inteiro: "))
 n1 = int(input("Digite um segundo numero inteiro: "))
 
