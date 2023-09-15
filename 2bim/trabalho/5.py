@@ -1,6 +1,9 @@
 na= int(input("Informe um numero natural par: "))
-contador = 0
 
-while contador <= na:
-    print(na)
-    na=na-2
+while na >= 0:
+    if na % 2==0:
+        print(na)
+        na-=2
+    else:
+        na=na -1
+        
