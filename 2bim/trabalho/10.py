@@ -1,11 +1,14 @@
-n1 = int(input("Digite o primeiro numero para soma: "))
-n2 = int(input("Digite o segundo numero para soma: "))
-contador=n1
-nf=0
+n1 = int(input("somar impares de 1 até: "))
+n=n1
+nf=n1
 
-while contador <= n2:
-    if contador != 2==0:
-        nf+=contador
-    contador+=1
-print(nf)
+if n1%2==0:
+    n1=n1-1
+    while 1 <= n1:
+        nf=n1+2
+        print(f"impares de 1 até {n} = {nf}")
 
+else:
+    while 1 <= n1:
+        nf=n1+2
+        print(f"impares de 1 até {n} = {nf}")
