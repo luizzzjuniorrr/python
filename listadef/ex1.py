@@ -1,8 +1,9 @@
-def total(x):
-    total = salario+(x*(tb/100))-desconto
+def total(salario):
+    total = salario+(salario*(bonus/100))-desconto
     return total
 
-salario= float(input("Salário: "))
-tb= float(input("Bonus: "))
+salario = float(input("Salário: "))
+bonus = float(input("Bônus: "))
 desconto = float(input("Desconto: "))
-print(f"Salário liquido: {total(total)}")   
+
+print(f"Salário líquido: R$ {total(salario)}")
