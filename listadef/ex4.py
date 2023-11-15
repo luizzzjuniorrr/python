@@ -1,4 +1,3 @@
-
 nota=0
 
 def calcularmedia(nota):
